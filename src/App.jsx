@@ -1,3 +1,4 @@
+import Catogories from "./Components/Catogories"
 import HeroSection from "./Components/HeroSection"
 import Navbar from "./Components/Navbar"
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <HeroSection></HeroSection>
+      <Catogories></Catogories>
     </>
   )
 }
